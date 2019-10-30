@@ -1,0 +1,26 @@
+# Source: https://graphql.org/learn/introspection/
+
+query introspectTypes {
+  __schema {
+    types {
+      name
+    }
+  }
+}
+
+query {
+  __type( name: "Rocket") {
+    name
+    fields {
+      name
+      type {
+        name
+        kind
+        ofType {
+          name
+          kind
+        }
+      }
+    }
+  }
+}

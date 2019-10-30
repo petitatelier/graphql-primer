@@ -1,0 +1,17 @@
+# Login
+mutation LoginUser {
+  login(email: "my@email")
+}
+
+# Authentication header -> HTTP Headers
+{
+  "authorization": "XXYYZZ"
+}
+
+# Who am I?
+query {
+  me {
+    id
+    email
+  }
+}

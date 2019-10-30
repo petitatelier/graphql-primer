@@ -1,0 +1,19 @@
+query GetLaunches {
+  launches(pageSize: 3) {
+    launches {
+      id
+      mission {
+        name
+      }
+    }
+  }
+}
+
+query GetLaunch {
+  launch(id: 56) {
+    id
+    mission {
+      name
+    }
+  }
+}
