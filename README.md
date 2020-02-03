@@ -26,4 +26,4 @@ Over the course of 18 years, we realized 130 assignments, ranging from 3 days to
 
 Next to our assignments, we run weekly and yearly code retreats, to step aside and take time, to research, learn and practice advanced subjects and pioneering technologies. We’re currently focusing on reactive data flows, graph databases and visualizations of complex linked-data structures and multi-layered graphs.
 
-Join us at our Gōng-fu I/O weekly hack sessions — you’ll find other like-minded « data-nauts! »
+Join us at our [Gōng-fu I/O weekly hack sessions](http://www.meetup.com/gōngfuIO/) — you’ll find other like-minded « data-nauts! »
